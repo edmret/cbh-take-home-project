@@ -1,0 +1,3 @@
+exports.eventWithCorrectHash = {
+    partitionKey: 'AAA'
+};
