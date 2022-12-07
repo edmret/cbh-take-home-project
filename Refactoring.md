@@ -9,3 +9,4 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+Created `utils` for containing all the functions that could be used to independently test each encapsulated function. This allows for more granular testing and easier debugging (test for this individual functions is tech debt for now). Also created `constants` folder for containing all the constants that could be used across the application. This allows for easier maintenance and configuration and finally broke this calls to the functions into steps, so is less confusing to see wich output is expected.
